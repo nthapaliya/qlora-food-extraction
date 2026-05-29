@@ -1,0 +1,18 @@
+# Saved adapter weights (large)
+qlora-foodextract-adapter/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.html
+
+# Hugging Face cache
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db

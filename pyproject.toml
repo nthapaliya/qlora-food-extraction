@@ -1,0 +1,23 @@
+[project]
+name = "qlora-food-extraction"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "transformers>=4.47.0",
+    "peft>=0.14.0",
+    "bitsandbytes>=0.45.0",
+    "accelerate>=1.0.0",
+    "datasets>=3.0.0",
+    "evaluate>=0.4.0",
+    "matplotlib>=3.8.0",
+    "pandas>=2.0.0",
+    "numpy>=1.26.0",
+    "tqdm>=4.66.0",
+    "torch>=2.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.0.0",
+    "ipykernel>=6.0.0",
+]
