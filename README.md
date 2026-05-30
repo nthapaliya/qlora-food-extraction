@@ -6,6 +6,9 @@
 Final project for **CSCI E-222: Foundations of Large Language Models**,
 Harvard Extension School, Spring 2026.
 
+[Preview the Notebook Here](qlora-food-extraction.md)
+[Full Report Here](report.pdf)
+
 ---
 
 ## Results
@@ -23,7 +26,7 @@ every downstream metric — no partial credit.
 | `drink_items_f1` | 0.875 | **0.949** | +0.074 |
 | `exact_match` | 0.258 | **0.624** | +0.366 |
 
-**Trainable parameters:** 29.9M of 3.12B (0.96%).  
+**Trainable parameters:** 29.9M of 3.12B (0.96%).
 **Peak VRAM during training:** well under 8 GB on an RTX 3060 Ti.
 
 ---
@@ -87,18 +90,6 @@ val / test).
 
 ---
 
-## Project structure
-
-```
-qlora-food-extraction/
-├── QLoRA_FoodExtract_Thapaliya.ipynb   # main notebook — fully self-contained
-├── pyproject.toml                       # uv dependency spec
-├── uv.lock
-└── qlora-foodextract-adapter/           # saved adapter weights (created on first run)
-```
-
----
-
 ## Setup
 
 **Requirements:** Python 3.14+, `uv`, a CUDA-capable GPU with ≥8 GB VRAM
@@ -122,7 +113,7 @@ uv add --dev jupyterlab
 uv run jupyter lab
 ```
 
-Open `QLoRA_FoodExtract_Thapaliya.ipynb` and run all cells in order. The notebook:
+Open `qlora-food-extraction.ipynb` and run all cells in order. The notebook:
 
 1. Downloads and cleans `FoodExtract-1k` directly from the Hugging Face Hub
 2. Runs an EDA section with visualisations
