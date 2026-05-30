@@ -7,6 +7,7 @@ Final project for **CSCI E-222: Foundations of Large Language Models**,
 Harvard Extension School, Spring 2026.
 
 [Preview the Notebook Here](qlora-food-extraction.md)
+
 [Full Report Here](report.pdf)
 
 ---
@@ -96,7 +97,7 @@ val / test).
 (tested on RTX 3060 Ti). CPU-only is possible but very slow.
 
 ```bash
-git clone https://github.com/<you>/qlora-food-extraction.git
+git clone https://github.com/nthapaliya/qlora-food-extraction.git
 cd qlora-food-extraction
 
 uv python pin 3.14
