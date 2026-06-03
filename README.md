@@ -6,9 +6,9 @@
 Final project for **CSCI E-222: Foundations of Large Language Models**,
 Harvard Extension School, Spring 2026.
 
-[Preview the Notebook Here](qlora-food-extraction.md)
+[Notebook](qlora-food-extraction.ipynb)
 
-[Full Report Here](report.pdf)
+[Report](report.pdf)
 
 ---
 
